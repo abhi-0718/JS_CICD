@@ -29,6 +29,7 @@ body {
   background: #a2d2ff;
   color: black;
   height: 100vh;
+  width: 100vw;
 }
 
 section {
