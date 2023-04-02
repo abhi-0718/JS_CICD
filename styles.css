@@ -1,5 +1,5 @@
 :root {
-  --pink: #ef476f;
+  --pink: #ff688b;
   --yellow: #ffd166;
   --green: #06d6a0;
   --blue: #118ab2;
@@ -170,7 +170,7 @@ input:checked~.bubble::after {
 }
 
 #create-task input[type="submit"]:hover {
-  background: #ff688b;
+  background: #ff819e;
 }
 
 .todo-list .list {
