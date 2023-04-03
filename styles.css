@@ -68,11 +68,12 @@ button {
 }
 
 p,
-p input {
+p input,
+#name {
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 700;
-  color: #073b4c;
+  color: var(--business);
 }
 
 #create-task input[type="text"] {
