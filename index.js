@@ -85,7 +85,7 @@ function displayTodo() {
 
     input.addEventListener("click", (e) => {
       todo.done = e.target.checked;
-      localStorage.setItem("todos", JSON.stringify("todos"));
+      localStorage.setItem("todos", JSON.stringify(todos));
 
       if (todo.done) {
         todoItem.classList.add("done");
